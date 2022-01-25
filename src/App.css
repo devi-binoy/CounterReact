@@ -1,0 +1,35 @@
+.App
+{
+  height : 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg,#18363E, #93C4D1);
+}
+
+.showcase{
+  border-radius : 50px;
+  height: fit-content;
+  width :fit-content;
+  background: white;
+  padding: 50px;
+  padding-top : 5px;
+
+}
+
+.showcase h1{
+  color: #6fa3aa;
+  text-align: center;
+  font-size: 10vh;
+}
+
+.showcase button{
+  font-size: 5vh;
+  width : 12vh;
+  margin : 1vh;
+  border-radius: 25px;
+  border : none;
+  background: linear-gradient(#799aa1, #93C4D1);
+  color : #e7e7e7;
+}
+
